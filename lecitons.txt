@@ -15,6 +15,9 @@ node index.js - запус самого js file
 Намеренно совершили ошибку в деструктуризации response.data
 6.------------------
 В TS Interface используются для определения структуры объекта
-Пример интерфейса: interface Todo {id: number; title: string; complited: boolean; }
+Пример интерфейса: interface Todo {id: number; title: string; completed: boolean; }
 Это поможет нам без ошибок деструктуризировать объект
 7.------------------
+Мы можем перепутать местами аргументы функции или передать не тот тип данных.
+И когда передаются параметры функции, то указать к ним их типы:
+function(id: number, title: string, completed: boolean){}
