@@ -1,0 +1,7 @@
+1.------------------
+TS надстройка над js. В барзуер попадает js
+2.------------------
+npm i -g typescript ts-node
+ts-node - its for starting compale ts to js in terminal
+Настройка vscode и prettier расширения
+3.------------------
