@@ -1,0 +1,26 @@
+{
+  "name": "TScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Askhabov-HM/typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Askhabov-HM/typescript/issues"
+  },
+  "homepage": "https://github.com/Askhabov-HM/typescript#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10"
+  }
+}

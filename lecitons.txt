@@ -5,3 +5,12 @@ npm i -g typescript ts-node
 ts-node - its for starting compale ts to js in terminal
 Настройка vscode и prettier расширения
 3.------------------
+npm i axios
+npm init -y
+4.------------------
+tsc index.ts - скомпилировать в js ( tsc === typescript compiler )
+node index.js - запус самого js file
+Совмещает две это команды: ts-node index.ts
+5.------------------
+Намеренно совершили ошибку в деструктуризации response.data (зачем пока не знаю)
+6.------------------
