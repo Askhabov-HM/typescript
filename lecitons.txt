@@ -81,4 +81,17 @@ const itemsMass: (string | number)[] = [];
 5.4------------------
 В TS есть кортежи. Разобрано дальше.
 
-
+***** 6_part *****
+6.1------------------
+Кортеж. Я понял смысл кортежа, но описать не могу. Пример:
+cont tuple = ['brown', 13, true];
+В Tuple(Кортеж) элементы расположены в строгом порядке.
+6.2------------------
+Tuple syntax:
+const testTuple: [string, boolean, number, date] = ['123', true, 100, new Date()];
+Alias for Tuple:
+type Alias: [string, number];
+const tupleAlias: Alias = ['text', 123]
+6.3------------------
+Tuple не дают понимание того, что означают элементы массива.
+Редко применяются. Объект лучше.
